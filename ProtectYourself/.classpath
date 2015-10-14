@@ -1,41 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
-	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
-	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="libs/android-support-multidex.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/google-api-client-1.18.0-rc.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/google-api-services-drive-v2-rev185-1.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/google-http-client-1.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/google-http-client-android-1.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/google-http-client-appengine-1.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/google-http-client-gson-1.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/google-http-client-jackson2-1.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/google-http-client-jdo-1.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/google-oauth-client-appengine-1.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/google-oauth-client-java6-1.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/google-oauth-client-jetty-1.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/google-oauth-client-servlet-1.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/gson-2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/httpclient-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/httpcore-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jackson-core-2.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jackson-core-asl-1.9.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jdo2-api-2.3-eb.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jetty-6.1.26.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jetty-util-6.1.26.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jsr305-1.3.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/pluto-container-api-2.1.0-m3-sources.jar"/>
+	<classpathentry kind="lib" path="libs/google-oauth-client-1.20.0.jar"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
-	<classpathentry kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/google-api-services-drive-v2-rev185-1.20.0-javadoc.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/google-api-services-drive-v2-rev185-1.20.0-sources.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/jsr305-1.3.9.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/gson-2.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/google-oauth-client-1.20.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/google-http-client-gson-1.20.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/google-http-client-android-1.20.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/google-http-client-1.20.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Binod/Downloads/google-api-client-1.18.0-rc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Binod/Downloads/Compressed/pluto-container-driver-api-2.1.0-m3-sources.jar/pluto-container-driver-api-2.1.0-m3-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/google-oauth-client-java6-1.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/google-oauth-client-appengine-1.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/google-oauth-client-servlet-1.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/google-oauth-client-jetty-1.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/google-http-client-jdo-1.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/google-http-client-jackson2-1.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/google-http-client-appengine-1.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/google-api-client-servlet-1.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/google-api-client-java6-1.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/google-api-client-jackson2-1.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/google-api-client-gson-1.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/google-api-client-appengine-1.20.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/google-api-client-android-1.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/google-api-client-1.20.0.jar"/>
-	<classpathentry kind="lib" path="D:/eclipse-jee-juno-SR1-win32-x86_64/adt-bundle-windows-x86_64-20130514/adt-bundle-windows-x86_64-20130514/sdk/extras/android/support/multidex/library/libs/android-support-multidex.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/jetty-util-6.1.26.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/jetty-6.1.26.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/jdo2-api-2.3-eb.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/jackson-core-2.1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/httpcore-4.0.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/libs/httpclient-4.0.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Binod/Downloads/google-api-services-drive-v2-rev185-java-1.20.0/drive/google-api-services-drive-v2-rev185-1.20.0.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
